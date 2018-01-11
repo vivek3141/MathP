@@ -9,7 +9,7 @@ try:
 except IndexError:
 	run = False
 if(run):
-	os.system("python3 /home/vivek/MathP/run.py "+fil)
+	os.system("python3 ./run.py "+fil)
 	exit()
 d = str(datetime.datetime.today())
 print("MathP v1.0.0 Beta 1 [" + d + "]")

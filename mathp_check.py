@@ -11,9 +11,9 @@ def genString():
 	try:
 		value = eval(string)
 		if value != mp.mathpeval(string):
-			print("ERROR: " + string)
+			print("ERROR: " + string + " " + str(value) + " " + str(mp.mathpeval(string)))
 	except ZeroDivisionError:
 		pass
 
-for i in range(100):
+for i in range(10):
 	genString()
