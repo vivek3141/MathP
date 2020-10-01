@@ -1,7 +1,7 @@
 import mathp_eval as mp
 import random
 
-operators = ['*','/', '-', '+']
+operators = ['*','/', '-', '+','//','**','%']
 def genString():
 	string = str(random.randint(1,10))
 	size = random.randint(1,10)
