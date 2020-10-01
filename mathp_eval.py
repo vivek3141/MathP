@@ -6,15 +6,15 @@ def mathpevalplus(s):
 	op = ""
 	for i in s:
 		if(i == "+"):
-			sum = sum + int(a)
+			sum += int(a)
 			a = ""
 			op = "+"
 		if(i == "-"):
-			sum = sum + int(a)
+			sum += int(a)
 			a = ""
 			op = "-"
 		else:
-			a = a + i
+			a += i
 		try:
 			z = s[c+1]
 		except IndexError:
