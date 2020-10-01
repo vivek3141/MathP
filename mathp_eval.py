@@ -1,9 +1,7 @@
 def mathpevalplus(s):
-	a = ""
-	sum = 0
-	z = ""
-	c = 0
-	op = ""
+	a,c,op = "","",""
+	sum,z = 0,0
+	
 	for i in s:
 		if(i == "+"):
 			sum = sum + int(a)
